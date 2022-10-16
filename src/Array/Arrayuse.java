@@ -10,15 +10,17 @@ package Array;
  * @author Lenovo
  */
 import java.util.Scanner;
+
 public class Arrayuse {
+
     public static void main(String[] args) {
-        Scanner s=new Scanner(System.in);
-        int[] a=new int[5];
-        for(int i=0;i<a.length;i++){
-            a[i]=s.nextInt();
+        Scanner s = new Scanner(System.in);
+        int[] a = new int[5];
+        for (int i = 0; i < a.length; i++) {
+            a[i] = s.nextInt();
         }
-        for(int i=0;i<a.length;i++){
-            System.out.print(a[i]+" ");
+        for (int i = 0; i < a.length; i++) {
+            System.out.print(a[i] + " ");
         }
     }
 }
